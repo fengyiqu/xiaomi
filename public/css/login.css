@@ -1,0 +1,101 @@
+#all{
+    position: relative;
+    background-size: 1130px 558px;
+    background:url('../image/login_bg.jpg') no-repeat center;
+    width:100% ;
+    height: 588px;
+    background-color:#14212A;
+}
+#all>.login {
+    position: absolute;
+    right:142px;
+    top: 32px;
+    background-color: #444444;
+    width: 400px;
+    height: 470px;
+    border-radius: 5px;
+
+}
+#all>.login>.login_center{
+    width:360px;
+    height:420px;
+    margin: 0 auto;
+}
+#all>.login>.login_center>.header{
+    width: 360px;
+    height:50px;
+    border-bottom: 2px solid #ff6700;
+    margin:10px 0;
+}
+#all>.login>.login_center>.header>span:first-child{
+    color:white;
+    font-size:20px;
+    margin-right:89px;
+}
+#all>.login>.login_center>.header>span+span{
+    color:white;
+    font-size: 13px;
+}
+#all>.login>.login_center>.header>a{
+    color:red;
+    font-weight: bold;
+    font-size: 13px;
+}
+#all>.login>.login_center>.body{
+    width: 360px;
+    height:300px;
+    padding: 20px 0;
+    color:white;
+}
+#all>.login>.login_center>.body>div{
+    width: 360px;
+    height:40px;
+    margin:35px 0;
+}
+#all>.login>.login_center>.body>div>div{
+    margin-left:56px;
+}
+#all>.login>.login_center>.body>div>input{
+    width: 242px;
+    height:42px;
+    padding: 5px;
+    border:1px solid #ccc;
+}
+#all>.login>.login_center>.body>div>img{
+    margin-bottom: 6px;
+    margin-left:20px;
+}
+#all>.login>.login_center>.body>div:last-child>input{
+     width: 122px;
+     height:42px;
+     padding: 5px;
+     border:1px solid #ccc;
+ }
+#all>.login>.login_center>.body>input{
+ margin:35px 0;
+}
+#all>.login>.login_center>.foot{
+    width:360px;
+    height:45px;
+    margin:15px 0;
+}
+#all>.login>.login_center>.foot>input{
+    width:238px;
+    height: 43px;
+    margin-left:55px;
+    background-color:#ff6700;
+    border: 0;
+    border-radius: 5px;
+}
+#all>.login>.login_center>.foot>input:hover{
+    border: 2px solid white;
+}
+#footer>div{
+    text-align: center;
+}
+#footer>div>span{
+    font-size:13px;
+}
+#footer>div:first-child>span{
+    margin-left:10px;
+}

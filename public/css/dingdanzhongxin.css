@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#aside-left>ul>li>a{
+    color:rgb(117,117,117);
+}
+#aside-left>ul>li{
+    margin-top: 18px;
+}
+#aside-left>ul>li>a:hover{
+    color:red;
+    margin:5px;
+}
+#aside-right>div>div>img{
+    border:1px solid #aaa;
+}
+#aside-right>div>div>span{
+    color:#aaa;
+    margin:0 10px;
+    font-size:16px;
+}
+#aside-right>div>div>span>a{
+    color:#aaa;
+    font-size:16px;
+}
+#aside-right>div>div>span>a:hover{
+    color:red;
+}

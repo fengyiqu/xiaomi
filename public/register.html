@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <!--引入boot的文件，引入顺序有要求-->
+    <link rel="stylesheet" href="../css/register.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-1.11.3.js"></script>
+    
+</head>
+<body >
+<div id="rs" >
+    <div class="rs-center" >
+        <div class="rs-header">
+            <span>会员注册</span>
+            <a href="http://127.0.0.1:3000/index.html">小米商城</a>
+        </div>
+        <div class="rs-body">
+            用 &nbsp;户 &nbsp;名: <input type="text" placeholder="请输入你的用户名" name="uname"/>
+            <span id="d1">请不要包含特殊字符</span><br/>
+            密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码: <input id="name1" type="password" placeholder="请输入你的密码" name="upwd" />
+            <span>请输入8位以上字符</span><br/>
+            确认密码: <input type="password" placeholder="请确认你的密码" name="upwd1"/>
+            <span>两次密码要输入一致哦</span><br/>
+            手 &nbsp;机 &nbsp;号: <input type="text" placeholder="请填写正确的手机号" name="uphone">
+            <span>填写下手机号吧方便我们联系您！</span><br/>
+            验 &nbsp;证 &nbsp;码: <input id="dd" type="text" placeholder="请输入验证码"/>
+            <img src="../image/yanzhengma.jpg" alt=""/>
+        </div>
+        <div class="rs-foot">
+            <!-- <a href="javascript:;">立 即 注 册</a> -->
+            <!-- <button>立即注册</button> -->
+            <input type="submit" value="立即注册">
+        </div>
+    </div>
+</div>
+<script src="js/register.js"></script>
+</body>
+</html>
